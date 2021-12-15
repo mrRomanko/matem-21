@@ -1,0 +1,189 @@
+* {
+    font-family: 'e-Ukraine', 'Roboto', arial;
+}
+
+body {
+    background: #eaf5f1;
+    margin: 0;
+}
+
+.head {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    height: 60px;
+    box-shadow: 0px 1px 7px 1px rgb(0 0 0 / 10%);
+}
+
+.foot {
+    background: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 14px;
+    font-weight: bolder;
+}
+
+.content {
+    margin: 10px;
+}
+
+.content_block {
+    margin: 15px -10px 15px 0px;
+    width: 290px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.content_block a {
+    color: #777777;
+}
+
+.content_block li {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 15px;
+    list-style: none;
+}
+
+.content_block li:hover {
+    background-color: #f9f9f9;
+}
+
+.rozd {
+    background: #fff;
+    padding: 10px;
+    margin: 15px 0px;
+    border-radius: 10px;
+}
+
+table {
+    
+}
+
+td {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgb(255 255 255);
+}
+
+.block1 {
+    text-align: center;
+    height: 75px;
+}
+
+.block2 {
+    background: #fff;
+    font-size: 17px;
+    padding: 90px 15px 15px;
+    margin: 15px 0px;
+    border-radius: 10px;
+}
+
+.block3 {
+    background: #fff;
+    font-size: 17px;
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #4C6B7F;
+    margin: 3px;
+}
+
+.vidstup {
+    max-width: 1200px;
+    margin: auto;
+}
+
+form {
+    max-width: 580px;
+    padding: 40px;
+    border: 1px solid rgba(190,190,190,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.form_head {
+    padding: 40px;
+    margin: -40px -40px 0 -40px;
+    background-color: rgba(190,190,190,0.1);
+}
+
+.form_head_big {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.form_head_small {
+    margin-top: 8px;
+    opacity: 0.7;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.form_name {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input input {
+    display: inline-block;
+    border: none;
+    background: rgba(220,220,220,0.25);
+    padding: 16px 12px;
+}
+
+.input textarea {
+    display: inline-block;
+    border: none;
+    background: rgba(220,220,220,0.25);
+    padding: 16px 12px;
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 100px;
+    min-height: 100px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.form_button {
+    padding: 13px 32px;
+    background: #000000;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+}
+
+.checkbox {
+    float: left;
+    margin: -1px 10px -1px 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(190,190,190,0.4);
+}
