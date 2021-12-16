@@ -113,13 +113,21 @@ img {
     vertical-align: -2px;
 }
 
+.vidstup {
+    max-width: 1200px;
+    margin: auto;
+}
+
 #link {
     margin: 5px;
 }
 
-.vidstup {
-    max-width: 1200px;
-    margin: auto;
+#my_year {
+    width: 70%;
+    margin: 0px 4px 0px 5px;
+    border: none;
+    background: rgba(220,220,220,0.25);
+    padding: 13px 12px;
 }
 
 form {
