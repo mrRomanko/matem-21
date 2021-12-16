@@ -113,6 +113,10 @@ img {
     vertical-align: -2px;
 }
 
+#link {
+    margin: 5px;
+}
+
 .vidstup {
     max-width: 1200px;
     margin: auto;
