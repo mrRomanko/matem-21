@@ -109,6 +109,10 @@ a {
     margin: 3px;
 }
 
+img {
+    vertical-align: -2px;
+}
+
 .vidstup {
     max-width: 1200px;
     margin: auto;
