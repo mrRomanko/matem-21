@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+        <script src="js/js.js?<?php echo rand(); ?>"></script>
+    </head>
+    <body>
+        <div class="head"><div class="name">JavaScript</div></div> 
+        <div style="padding: 25px;"></div>
+        <div class="vidstup">
+        <table>
+            <tr>
+                <td style="vertical-align: top;">
+                
+                <div class="content_block">
+                <a href="js_if_else.php"><li><b>Розгалуження</b></li></a>
+                <a href="js_while_for.php"><li><b>Цикли</b></li></a>
+                <a href="#"><li><b>Код 1</b></li></a>
+                </div>
+                
+                </td>
+                
+                <td style="vertical-align: top;">
+                
+                
+                    <center class="rozd"><p><b style="font-size: 22px;">Які математики жили у <script>document.write(year);</script> році</b><br>(Розгалуження)</p>
+                    
+                    Введіть рік: <input id="my_year">
+    <button id="go">Вперед</button>
+    <br><br><div id="result" />
+
+        <script>            
+		    const mathematics = [
+      { name: 'Михайло Остроградський', from: 1801, to: 1862 },
+      { name: 'Георгій Феодосійович Вороний', from: 1868, to: 1908 },
+      { name: 'Володимир Йосипович Левицький', from: 1872, to: 1956 },
+      { name: 'Мирон Онуфрійович Зарицький', from: 1889, to: 1961 },
+      { name: 'Михайло Пилипович Кравчук', from: 1892, to: 1942 },
+      { name: 'Юрій Олексійович Митропольський', from: 1917, to: 2008 },
+      { name: 'Юрій Львович Далецький', from: 1926, to: 1997 },
+      { name: 'Анатолій Володимирович Скороход', from: 1930 },
+      { name: 'Віктор Михайлович Глушков', from: 1932, to: 1982 },
+      { name: 'Анатолій Михайлович Самойленко', from: 1938 },
+    ]
+
+    function func_year() {
+      const year = document.getElementById('my_year').value
+      let result = ''
+      mathematics.filter(m => m.from <= year && (!m.to || m.to > year)).map(m => {
+        result += `${'<div id="link">' + m.name} ${m.to ? ('(' + m.from + '-' + m.to + ')</div>') : ('(народився ' + m.from + ')</div>')}`
+      })
+
+      document.getElementById('result').innerHTML = result
+    }
+    
+
+    document.getElementById('go').addEventListener('click', func_year);
+		</script>
+
+                    
+                </td>
+            </tr>
+        </table> 
+        </div>
+        <div class="foot">
+            <a href="/">Головна</a>
+            <a href="/contact.html">Контакти</a>
+            <a href="js_if_else.html">JavaScript</a>
+            <p><b>&copy; Роман Бойчук</b>, Матем-21</p>
+        </div>
+    </body> 
+</html>
